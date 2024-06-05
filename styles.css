@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #2f281e;
+}
+
+.kiri {
+    margin: 2%;
+    margin-top: auto;
+    width: 15%;
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    
+}
+
+.kanan {
+    margin: 1%;
+    width: 75%;
+    height: auto;
+    float: left;
+}
+
+.logo {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-content: center;
+}
+
+.teks {
+    font-size: medium;
+}
+
+.text-primary{
+    color: #C07F00;
+}
+
+#tess {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.isi {
+    text-align: center;
+    padding: 10px;
+    color: #2f281e;
+}
+.isi:hover {
+    background-color: #C07F00;
+    color: #ffff;
+}
+
+.sidebar-heading {
+    color: #2f281e;
+    background-color: #FFD95A;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nav-link {
+    text-align: left;
+    color: #C07F00;
+}
+
+.isi:hover a {
+    background-color: #C07F00;
+    color: #ffff;
+}
+
+.badge-primary{
+    background-color: #C07F00;
+}
+
+.content {
+    padding: 20px 80px;
+    text-align: justify;
+    margin-left: 270px;
+}
+
+.sidebar {
+    width: 250px;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
