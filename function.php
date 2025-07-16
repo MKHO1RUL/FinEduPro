@@ -210,7 +210,7 @@ function login($koneksi, $telepon) {
                     'countryCode' => '62',
                 ),
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: K8LpZMM+bQFFDw7vvJ4i'
+                    'Authorization: ...'
                 ),
             ));
             $response = curl_exec($curl);
